@@ -1,0 +1,9 @@
+.panel {
+	padding: 30px 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	max-width: 362px;
+	width: 100%;
+	flex-shrink: 0;
+}

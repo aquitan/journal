@@ -1,0 +1,48 @@
+.input-wrap {
+	width: 100%;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+	display: flex;
+	align-items: center;
+	padding: 15px 0;
+}
+
+.input {
+	border: none;
+	background-color: transparent;
+}
+
+.title {
+	color: #FFF;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	width: 100%;
+}
+
+.title::placeholder {
+	color: rgba(255, 255, 255, 0.60);
+}
+
+.date::placeholder {
+	color: rgba(255, 255, 255, 0.60);
+}
+
+.input-wrap label {
+	display: flex;
+	gap: 20px;
+	color: rgba(255, 255, 255, 0.60);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	min-width: 150px;
+}
+
+.error {
+	border-color: tomato;
+}
+
+.error .title::placeholder {
+	color: tomato;
+}
